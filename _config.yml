@@ -19,10 +19,10 @@ google_analytics: #UA—XXXXXXXX-X
 disqus_shortname: #disqus shortname
 
 user:
-  name: Catbook
+  name: JihyeJung
   pic: /assets/img/cat.jpg
   picAlt: "catbook"
-  job: a category-centric theme
+  job: SKKU College of Computing
   aboutme: true # comment this out if you don't need the 'about' page.
 
 exclude:
