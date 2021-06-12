@@ -32,7 +32,7 @@ comments: true
   이 노드들에 담긴 특징은 R이라는 행렬에 저장한다. 또한, 노드 간의 관계가 edge로 연결되어 있으면 1, 아니면 0으로 나타내어 adjacency 행렬 A에 저장한다.
       
   이 모델의 목적은 이 두 행렬로부터 encoding과 decoding 함수를 학습하는 것이다.
-  Encoder는 adjacency matrix를 이용해서 옷의 초기 특징 X를 새로운 representation으로 나타낸다. 초기 이미지에서 CNN으로 뽑은 feature인 벡터 $$\overrightarrow{x_i}$$에 저장하고, 이를 새로운 representation인 벡터 $$\overrightarrow{h_i}$$로 나타내는 것이다. 이때 여기서 deep Graph Convolutional Network(GCN)를 사용한다.  
+  Encoder는 adjacency matrix를 이용해서 옷의 초기 특징 X를 새로운 representation으로 나타낸다. 초기 이미지에서 CNN으로 뽑은 feature인 벡터 $\vec x_i$에 저장하고, 이를 새로운 representation인 벡터 $$\overrightarrow{h_i}$$로 나타내는 것이다. 이때 여기서 deep Graph Convolutional Network(GCN)를 사용한다.  
   Decoder는 encoder에서 내놓은 특징들을 이용하여 item i와 j가 compatible한 확률을 계산한다. 즉, 각 노드가 edge로 연결되어 있을 확률을 계산하는 것인데, 이 과정을 metric learning이라고 한다. 
   
 ## Tasks
